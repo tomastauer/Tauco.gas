@@ -1,0 +1,45 @@
+{
+  "name": "Tauco.gas",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@types/globalize": "0.0.32",
+    "@types/jest": "^22.2.3",
+    "@types/react": "^16.3.13",
+    "@types/react-native": "^0.55.12",
+    "@types/react-test-renderer": "^16.0.1",
+    "jest-expo": "26.0.0",
+    "react-native-scripts": "1.13.1",
+    "react-native-typescript-transformer": "^1.2.5",
+    "react-test-renderer": "16.3.0-alpha.1",
+    "typescript": "^2.8.3"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^6.3.1",
+    "assert": "^1.4.1",
+    "cldr-core": "^33.0.0",
+    "cldr-data": "^32.0.1",
+    "cldr-numbers-full": "^33.0.0",
+    "expo": "^26.0.0",
+    "globalize": "^1.3.0",
+    "iana-tz-data": "^2017.1.0",
+    "lodash": "^4.17.10",
+    "react": "16.3.0-alpha.1",
+    "react-native": "0.54.0",
+    "react-native-button": "^2.3.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-fontawesome": "^5.7.0",
+    "react-native-sketch": "^1.1.0"
+  }
+}
